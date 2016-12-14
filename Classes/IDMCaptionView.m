@@ -35,9 +35,9 @@ static const CGFloat labelPadding = 10;
         _photo = photo;
         self.opaque = NO;
         
-        [self setBackground];
-        
         [self setupCaption];
+
+        [self setBackground];
     }
     
     return self;
