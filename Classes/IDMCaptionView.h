@@ -25,6 +25,9 @@
 // subclass to the photo browsers -photoBrowser:photoAtIndex: delegate method
 - (void)setupCaption;
 
+// Custom - Override -setupBackground for gradient view
+- (void)setupBackground;
+
 // Override -sizeThatFits: and return a CGSize specifying the height of your
 // custom caption view. With width property is ignored and the caption is displayed
 // the full width of the screen
